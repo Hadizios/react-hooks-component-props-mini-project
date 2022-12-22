@@ -1,0 +1,5 @@
+name: react-hooks-component-props-mini-project-1
+packages:
+  - path: src
+language: javascript
+appmap_dir: tmp/appmap
