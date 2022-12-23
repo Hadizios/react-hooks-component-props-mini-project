@@ -3,3 +3,9 @@ packages:
   - path: src
 language: javascript
 appmap_dir: tmp/appmap
+remote_recording:
+  path: /y/
+test_recording:
+  test_commands:
+    - command: npx @appland/appmap-agent-js --recorder=mocha -- npx mocha
+      env: {}

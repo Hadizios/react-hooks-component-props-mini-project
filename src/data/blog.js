@@ -9,7 +9,7 @@ const blogData = {
       id: 1,
       title: "Components 101",
       date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
+      preview: "Setting up thebuilding blocks of your site",
       minutes: 5,
     },
     {
@@ -29,3 +29,4 @@ const blogData = {
 };
 
 export default blogData;
+export const { name, image, about, posts } = blogData;
